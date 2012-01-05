@@ -1,0 +1,215 @@
+body {
+	background-color: white;
+	font-family: Palatino, Verdana, sans-serif;
+	font-size: 14;
+  	margin: 0px;
+  	color: #454545;
+
+}
+
+
+
+adiv {
+	border: 1px solid;
+}
+
+aspan {
+	border: 1px solid red;
+}
+
+.navcontainer {
+	width: 100%;
+	background-color: #CC6808;
+  	border-bottom: 1px solid rgba(99, 99, 99, 0.99);
+/*	position: fixed; */
+	
+}
+
+.navbar {
+	width: 888px;
+	/* background-color: orange; */
+}
+
+.navelement {
+	 /* width: 60px; */
+	display: inline-block;
+  color: white;
+
+  /* wth font is this? */
+  font-family: Verdana, sans-serif;
+  font-size: 4;
+  /* font-weight: bold; */
+  text-align: center;
+  
+  /* "aligns" it to the right and pads them equally */
+  padding-right: 30px;
+  padding-left: 30px;
+
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#user {
+	text-align: right;
+}
+#logo {
+	width: 300px;
+	border-left: none;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	font-family: Palatino;
+  	font-size: 150%;
+}
+
+.navelement a {
+  color: white;
+}
+
+.searchbar {
+	padding-top: 20%;
+	margin: auto;
+	text-align: center;
+}
+
+#searchbar {
+	width: 33%;
+	height: 30px;
+	border-radius: 8px;
+}
+
+#searchbutton {
+	color: white;
+	margin-top: 10px;
+	text-align: center;
+	padding: 10px;
+	background: linear-gradient(top, #EA7806 0%,#F07D00 100%);
+	background: -moz-linear-gradient(top, #EA7806 0%, #F07D00 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#FEB62C), color-stop(100%,#F07D00));
+	background: -webkit-linear-gradient(top, #EA7806 0%,#F07D00 100%);
+	background: -o-linear-gradient(top, #EA7806 0%,#F07D00 100%);
+	background: -ms-linear-gradient(top, #EA7806 0%,#F07D00 100%);
+	border-radius: 5px;
+	
+}
+
+a#searchbutton:hover {
+	background: linear-gradient(top, #FFA040 0%,#F07D00 100%);
+	background: -moz-linear-gradient(top, #FFA040 0%, #F07D00 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#FEB62C), color-stop(100%,#F07D00));
+	background: -webkit-linear-gradient(top, #FFA040 0%,#F07D00 100%);
+	background: -o-linear-gradient(top, #FFA040 0%,#F07D00 100%);
+	background: -ms-linear-gradient(top, #FFA040 0%,#F07D00 100%);
+}
+
+.bodycontainer {
+	width: 800px;
+	margin: auto;   /* centering */
+}
+
+.body-elements {
+  margin: auto;
+  width: 585px;
+}
+.header {
+	/* width: 585px; */
+	font-family: Palatino;
+	font-size: 24;
+	letter-spacing: 2px;
+	/* color: #454545; */
+  /* padding: 10px; */
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+
+.header-text {
+  /* use this for spacing instead of padding: 10px in header */
+  margin: 10px;
+}
+
+.header-img {
+  /* width: 585px; */
+}
+
+.mainbody {
+	/* width: 585px; */
+  /* color: #454545; */
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.subbody {
+  width: 550px;
+  color: #717171;
+  font-family: Verdana, sans-serif;
+  font-size: 11;
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+.substrong {
+  font-weight: bold;
+}
+.mainbody h1 {
+  font-family: Palatino, Verdana;
+  margin-top: 40px;
+  font-size: 16;
+  font-weight: normal;
+}
+.mainbody .person {
+  margin-top: 20px;
+  padding-left: 50px;
+}
+
+.mainbody h2 {
+  font-family: Palatino, Verdana;
+  font-size: 14;
+  font-weight: normal;
+  margin-top: 20px;
+  padding-left: 10px;
+}
+
+.mainbody .person .name {
+  font-weight: bold;
+}
+
+.question {
+  font-family: Palatino, Verdana;
+  font-size: 16;
+  margin-top: 40px;
+}
+
+.answer {
+  margin-top: 20px;
+  padding-left: 10px;
+}
+
+.sponsor {
+  margin-top: 20px;
+  padding-left: 50px;
+}
+
+.sponsor .name {
+  font-weight: bold;
+}
+
+.footer {
+  font-size: 10;
+  color: #909090;
+  text-align: right;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+.footer a {
+  /* http://javascript.internet.com/miscellaneous/true-color-darkening-and-lightening.html */
+  color: #F4A30B;
+} 
+
+a {
+	color: #EA7806;
+	text-decoration: none;
+}
+
+
+
