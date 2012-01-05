@@ -1,5 +1,5 @@
 body {
-	background-color: white;
+	background-color: #F4F4F4;
 	font-family: Palatino, Verdana, sans-serif;
 	font-size: 14;
   	margin: 0px;
@@ -12,17 +12,11 @@ a {
 	text-decoration: none;
 }
 
-adiv {
-	border: 1px solid;
-}
 
-aspan {
-	border: 1px solid red;
-}
 
 .navcontainer {
 	width: 100%;
-	background-color: #CC6808;
+	background-color: #91BD09;
   	border-bottom: 1px solid rgba(99, 99, 99, 0.99);
 /*	position: fixed; */
 	
