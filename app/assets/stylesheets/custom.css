@@ -7,7 +7,10 @@ body {
 
 }
 
-
+a {
+	color: #EA7806;
+	text-decoration: none;
+}
 
 adiv {
 	border: 1px solid;
@@ -27,21 +30,16 @@ aspan {
 
 .navbar {
 	width: 888px;
-	/* background-color: orange; */
 }
 
 .navelement {
-	 /* width: 60px; */
 	display: inline-block;
   color: white;
 
-  /* wth font is this? */
   font-family: Verdana, sans-serif;
   font-size: 4;
-  /* font-weight: bold; */
   text-align: center;
   
-  /* "aligns" it to the right and pads them equally */
   padding-right: 30px;
   padding-left: 30px;
 
@@ -103,113 +101,6 @@ a#searchbutton:hover {
 	background: -ms-linear-gradient(top, #FFA040 0%,#F07D00 100%);
 }
 
-.bodycontainer {
-	width: 800px;
-	margin: auto;   /* centering */
-}
 
-.body-elements {
-  margin: auto;
-  width: 585px;
-}
-.header {
-	/* width: 585px; */
-	font-family: Palatino;
-	font-size: 24;
-	letter-spacing: 2px;
-	/* color: #454545; */
-  /* padding: 10px; */
-  margin-top: 20px;
-  margin-bottom: 20px;
-}
-
-
-.header-text {
-  /* use this for spacing instead of padding: 10px in header */
-  margin: 10px;
-}
-
-.header-img {
-  /* width: 585px; */
-}
-
-.mainbody {
-	/* width: 585px; */
-  /* color: #454545; */
-  margin-top: 20px;
-  margin-bottom: 20px;
-}
-.subbody {
-  width: 550px;
-  color: #717171;
-  font-family: Verdana, sans-serif;
-  font-size: 11;
-  text-align: center;
-  margin-top: 40px;
-  margin-bottom: 20px;
-}
-.substrong {
-  font-weight: bold;
-}
-.mainbody h1 {
-  font-family: Palatino, Verdana;
-  margin-top: 40px;
-  font-size: 16;
-  font-weight: normal;
-}
-.mainbody .person {
-  margin-top: 20px;
-  padding-left: 50px;
-}
-
-.mainbody h2 {
-  font-family: Palatino, Verdana;
-  font-size: 14;
-  font-weight: normal;
-  margin-top: 20px;
-  padding-left: 10px;
-}
-
-.mainbody .person .name {
-  font-weight: bold;
-}
-
-.question {
-  font-family: Palatino, Verdana;
-  font-size: 16;
-  margin-top: 40px;
-}
-
-.answer {
-  margin-top: 20px;
-  padding-left: 10px;
-}
-
-.sponsor {
-  margin-top: 20px;
-  padding-left: 50px;
-}
-
-.sponsor .name {
-  font-weight: bold;
-}
-
-.footer {
-  font-size: 10;
-  color: #909090;
-  text-align: right;
-  margin-top: 40px;
-  margin-bottom: 20px;
-}
-.footer a {
-  /* http://javascript.internet.com/miscellaneous/true-color-darkening-and-lightening.html */
-  color: #F4A30B;
-} 
-
-a {
-	color: #EA7806;
-	text-decoration: none;
-}
-
-
+	
 

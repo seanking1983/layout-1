@@ -2,8 +2,8 @@
 <html>
 <head>
   <title>Homepage</title>
-  <%= stylesheet_link_tag    :all %>
-  <%= javascript_include_tag :defaults %>
+  <%= stylesheet_link_tag    "application" %>
+  <%= javascript_include_tag "application" %>
   <%= csrf_meta_tags %>
 </head>
 <body>
@@ -12,8 +12,8 @@
 	<div class="navcontainer">
 		<div class="navbar">
 		    <div class="navelement" id="logo"><%= link_to "OurBull", root_path %></a></div>
-		    <div class="navelement"><%= link_to "Books", root_path %></a></div>
-		    <div class="navelement"><%= link_to "Post New", people_path %></a></div>
+		    <div class="navelement"><%= link_to "Books", '#' %></a></div>
+		    <div class="navelement"><%= link_to "Post New", '#' %></a></div>
 		    <div class="navelement" id="user"><%= link_to "Sign In", '#' %></a></div>
 	  	</div>
 
